@@ -2,7 +2,7 @@
 
 var margin = {top: 20, right: 120, bottom: 20, left:100},
     width = 1400 - margin.right - margin.left,
-    height = 790 - margin.top - margin.bottom;
+    height = 900- margin.top - margin.bottom;
  
 var i = 0,
     duration = 750,
@@ -12,12 +12,12 @@ var tree = d3.layout.tree()
     .size([height, width]);
 
 var x = d3.scale.linear()
-    .domain([1870,2030])
+    .domain([1835,2035])
     .range([-50,1100]);
 
 var y = d3.scale.linear()
     .domain([0,26])
-    .range([0,675]);
+    .range([0,700]);
 
 var p = d3.scale.linear()
     .domain([0,1000])

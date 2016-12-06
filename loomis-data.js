@@ -1,8 +1,9 @@
 var treeData = [
+
   {
     "idx" : 1,
-    "name": "Loomis",
-    "year": "1882",
+    "name": "Berghaus",
+    "year": "1841",
     "prcp": "0",
     "clr" : "blueviolet",
     "map" : true,
@@ -13,6 +14,42 @@ var treeData = [
 
   {
     "idx" : 2,
+    "name": "Johnston",
+    "year": "1854",
+    "prcp": "0",
+    "clr" : "blueviolet",
+    "map" : true,
+    "val" : false,
+    "ant" : "unknown",
+    "yoff": 0,
+  },
+ 
+  {
+    "idx" : 3,
+    "name": "Wojeikof",
+    "year": "1874",
+    "prcp": "0",
+    "clr" : "blueviolet",
+    "map" : true,
+    "val" : false,
+    "ant" : "unknown",
+    "yoff": 0,
+  },
+ 
+  {
+    "idx" : 4,
+    "name": "Loomis",
+    "year": "1882",
+    "prcp": "0",
+    "clr" : "blueviolet",
+    "map" : true,
+    "val" : false,
+    "ant" : "unknown",
+    "yoff": 0,
+  },
+
+  {
+    "idx" : 5,
     "name": "Murray",
     "year": "1887",
     "prcp": "843",
@@ -24,7 +61,7 @@ var treeData = [
   },
  
   {
-    "idx" : 3,
+    "idx" : 6,
     "name": "Brückner",
     "year": "1905",
     "prcp": "843",
@@ -36,7 +73,7 @@ var treeData = [
   },
  
   {
-    "idx" : 4,
+    "idx" : 7,
     "name": "Supan",
     "year": "1898",
     "prcp": "0",
@@ -48,7 +85,7 @@ var treeData = [
   },
  
   {
-    "idx" : 5,
+    "idx" : 8,
     "name": "Bezdek",
     "year": "1904",
     "prcp": "936",
@@ -60,7 +97,7 @@ var treeData = [
   },
  
   {
-    "idx" : 6,
+    "idx" : 9,
     "name": "Fritsche",
     "year": "1906",
     "prcp": "765",
@@ -72,7 +109,7 @@ var treeData = [
   },
  
   {
-    "idx" : 7,
+    "idx" : 10,
     "name": "Kerner",
     "year": "1907",
     "prcp": "815",
@@ -84,7 +121,7 @@ var treeData = [
   },
  
   {
-    "idx" : 8,
+    "idx" : 11,
     "name": "Wüst",
     "year": "1922",
     "prcp": "753",
@@ -96,7 +133,7 @@ var treeData = [
   },
  
   {
-    "idx" : 9,
+    "idx" : 12,
     "name": "Brooks & Hunt",
     "year": "1930",
     "prcp": "659",
@@ -108,7 +145,7 @@ var treeData = [
   },
  
   {
-    "idx" : 10,
+    "idx" : 13,
     "name": "Meinardus",
     "year": "1934",
     "prcp": "665",
@@ -120,7 +157,7 @@ var treeData = [
   },
  
   {
-    "idx" : 11,
+    "idx" : 14,
     "name": "Möller",
     "year": "1951",
     "prcp": "670",
@@ -132,7 +169,7 @@ var treeData = [
   },
  
   {
-    "idx" : 12,
+    "idx" : 15,
     "name": "Drozdov",
     "year": "1939",
     "prcp": "0",
@@ -144,7 +181,7 @@ var treeData = [
   },
  
   {
-    "idx" : 13,
+    "idx" : 16,
     "name": "L'vovich",
     "year": "1970",
     "prcp": "730",
@@ -156,7 +193,7 @@ var treeData = [
   },
  
   {
-    "idx" : 14,
+    "idx" : 17,
     "name": "Kalinin",
     "year": "1971",
     "prcp": "730",
@@ -168,7 +205,7 @@ var treeData = [
   },
  
   {
-    "idx" : 15,
+    "idx" : 18,
     "name": "Kuznetsova & Sharova",
     "year": "1964",
     "prcp": "725",
@@ -180,7 +217,7 @@ var treeData = [
   },
  
   {
-    "idx" : 16,
+    "idx" : 19,
     "name": "Lvovich",
     "year": "1979",
     "prcp": "762",
@@ -192,7 +229,7 @@ var treeData = [
   },
  
   {
-    "idx" : 17,
+    "idx" : 20,
     "name": "Budyko",
     "year": "1977",
     "prcp": "730",
@@ -204,7 +241,7 @@ var treeData = [
   },
  
   {
-    "idx" : 18,
+    "idx" : 21,
     "name": "Baumgartner & Reichel",
     "year": "1975",
     "prcp": "748",
@@ -216,7 +253,7 @@ var treeData = [
   },
  
   {
-    "idx" : 19,
+    "idx" : 22,
     "name": "Bengtsson",
     "year": "2010",
     "prcp": "732",
@@ -228,7 +265,7 @@ var treeData = [
   },
  
   {
-    "idx" : 20,
+    "idx" : 23,
     "name": "Hartmann",
     "year": "2015",
     "prcp": "746",
@@ -240,7 +277,7 @@ var treeData = [
   },
  
   {
-    "idx" : 21,
+    "idx" : 24,
     "name": "UNESCO",
     "year": "1978",
     "prcp": "800",
@@ -252,7 +289,7 @@ var treeData = [
   },
  
   {
-    "idx" : 22,
+    "idx" : 25,
     "name": "Shiklomanov & Sokolov",
     "year": "1983",
     "prcp": "800",
@@ -264,7 +301,7 @@ var treeData = [
   },
  
   {
-    "idx" : 23,
+    "idx" : 26,
     "name": "Shiklomanov",
     "year": "1998",
     "prcp": "800",
@@ -276,7 +313,7 @@ var treeData = [
   },
  
   {
-    "idx" : 24,
+    "idx" : 27,
     "name": "Legates & Wilmott",
     "year": "1990",
     "prcp": "845",
@@ -288,7 +325,7 @@ var treeData = [
   },
  
   {
-    "idx" : 25,
+    "idx" : 28,
     "name": "Legates & Mather",
     "year": "1992",
     "prcp": "777",
@@ -300,7 +337,7 @@ var treeData = [
   },
  
   {
-    "idx" : 26,
+    "idx" : 29,
     "name": "Legates & McCabe",
     "year": "2005",
     "prcp": "845",
@@ -312,7 +349,7 @@ var treeData = [
   },
  
   {
-    "idx" : 27,
+    "idx" : 30,
     "name": "GPCC",
     "year": "2014",
     "prcp": "786",
@@ -326,24 +363,24 @@ var treeData = [
 ];
 
 var nodeData = [
-  { "src": 1, "des": 2, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 1, "des": 3, "xoff":0.3, "yoff":0.1, "ls": 0},
   { "src": 4, "des": 5, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 4, "des": 6, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 4, "des": 7, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 6, "des": 8, "xoff":  3, "yoff":0.3, "ls": 0},
+  { "src": 4, "des": 6, "xoff":0.3, "yoff":0.1, "ls": 0},
   { "src": 7, "des": 8, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 9, "des":10, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 9, "des":11, "xoff":0.8, "yoff":0.1, "ls": 0},
+  { "src": 7, "des": 9, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src": 7, "des":10, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src": 9, "des":11, "xoff":  3, "yoff":0.3, "ls": 0},
   { "src":10, "des":11, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":12, "des":13, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src":12, "des":14, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":12, "des":14, "xoff":0.8, "yoff":0.1, "ls": 0},
+  { "src":13, "des":14, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":15, "des":16, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":15, "des":17, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":18, "des":19, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":18, "des":20, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":21, "des":22, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":21, "des":23, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src":24, "des":25, "xoff":2.0, "yoff":  0, "ls": 0},
-  { "src":24, "des":26, "xoff":3.5, "yoff":0.2, "ls": 0},
+  { "src":24, "des":25, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":24, "des":26, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":27, "des":28, "xoff":2.0, "yoff":  0, "ls": 0},
+  { "src":27, "des":29, "xoff":3.5, "yoff":0.2, "ls": 0},
 ];
