@@ -5,7 +5,7 @@ var treeData = [
     "name": "Berghaus",
     "year": "1841",
     "prcp": "0",
-    "clr" : "blueviolet",
+    "clr" : "goldenrod",
     "map" : true,
     "val" : false,
     "ant" : "unknown",
@@ -17,7 +17,7 @@ var treeData = [
     "name": "Johnston",
     "year": "1854",
     "prcp": "0",
-    "clr" : "blueviolet",
+    "clr" : "goldenrod",
     "map" : true,
     "val" : false,
     "ant" : "unknown",
@@ -29,7 +29,7 @@ var treeData = [
     "name": "Wojeikof",
     "year": "1874",
     "prcp": "0",
-    "clr" : "blueviolet",
+    "clr" : "dodgerblue",
     "map" : true,
     "val" : false,
     "ant" : "unknown",
@@ -215,9 +215,21 @@ var treeData = [
     "ant" : "unknown",
     "yoff": 0,
   },
- 
+
   {
     "idx" : 19,
+    "name": "Budyko",
+    "year": "1977",
+    "prcp": "730",
+    "clr" : "green",
+    "map" : false,
+    "val" : true,
+    "ant" : true,
+    "yoff": 0,
+  },
+  
+  {
+    "idx" : 20,
     "name": "Lvovich",
     "year": "1979",
     "prcp": "762",
@@ -229,19 +241,55 @@ var treeData = [
   },
  
   {
-    "idx" : 20,
-    "name": "Budyko",
-    "year": "1977",
-    "prcp": "730",
-    "clr" : "green",
-    "map" : false,
-    "val" : true,
-    "ant" : true,
+    "idx" : 21,
+    "name": "Geiger",
+    "year": "1965",
+    "prcp": "0",
+    "clr" : "gold",
+    "map" : true,
+    "val" : false,
+    "ant" : "unknown",
     "yoff": 0,
   },
  
   {
-    "idx" : 21,
+    "idx" : 22,
+    "name": "Mather",
+    "year": "1969",
+    "prcp": "787",
+    "clr" : "gold",
+    "map" : false,
+    "val" : true,
+    "ant" : false,
+    "yoff": 0,
+  },
+ 
+  {
+    "idx" : 23,
+    "name": "Legates",
+    "year": "1987",
+    "prcp": "820",
+    "clr" : "gold",
+    "map" : true,
+    "val" : true,
+    "ant" : true,
+    "yoff": 0,
+  },
+
+  {
+    "idx" : 24,
+    "name": "Jaeger",
+    "year": "1978",
+    "prcp": "759",
+    "clr" : "gold",
+    "map" : false,
+    "val" : true,
+    "ant" : "unknown",
+    "yoff": 0,
+  },
+
+  {
+    "idx" : 25,
     "name": "Baumgartner & Reichel",
     "year": "1975",
     "prcp": "748",
@@ -253,7 +301,7 @@ var treeData = [
   },
  
   {
-    "idx" : 22,
+    "idx" : 26,
     "name": "Bengtsson",
     "year": "2010",
     "prcp": "732",
@@ -265,7 +313,7 @@ var treeData = [
   },
  
   {
-    "idx" : 23,
+    "idx" : 27,
     "name": "Hartmann",
     "year": "2015",
     "prcp": "746",
@@ -277,7 +325,7 @@ var treeData = [
   },
  
   {
-    "idx" : 24,
+    "idx" : 28,
     "name": "UNESCO",
     "year": "1978",
     "prcp": "800",
@@ -289,7 +337,7 @@ var treeData = [
   },
  
   {
-    "idx" : 25,
+    "idx" : 29,
     "name": "Shiklomanov & Sokolov",
     "year": "1983",
     "prcp": "800",
@@ -301,7 +349,7 @@ var treeData = [
   },
  
   {
-    "idx" : 26,
+    "idx" : 30,
     "name": "Shiklomanov",
     "year": "1998",
     "prcp": "800",
@@ -313,7 +361,7 @@ var treeData = [
   },
  
   {
-    "idx" : 27,
+    "idx" : 31,
     "name": "Legates & Wilmott",
     "year": "1990",
     "prcp": "845",
@@ -325,7 +373,7 @@ var treeData = [
   },
  
   {
-    "idx" : 28,
+    "idx" : 32,
     "name": "Legates & Mather",
     "year": "1992",
     "prcp": "777",
@@ -337,7 +385,7 @@ var treeData = [
   },
  
   {
-    "idx" : 29,
+    "idx" : 33,
     "name": "Legates & McCabe",
     "year": "2005",
     "prcp": "845",
@@ -349,7 +397,7 @@ var treeData = [
   },
  
   {
-    "idx" : 30,
+    "idx" : 34,
     "name": "GPCC",
     "year": "2014",
     "prcp": "786",
@@ -363,12 +411,13 @@ var treeData = [
 ];
 
 var nodeData = [
+  { "src": 1, "des": 2, "xoff":  0, "yoff":  0, "ls": 0},
   { "src": 4, "des": 5, "xoff":  0, "yoff":  0, "ls": 0},
   { "src": 4, "des": 6, "xoff":0.3, "yoff":0.1, "ls": 0},
   { "src": 7, "des": 8, "xoff":  0, "yoff":  0, "ls": 0},
   { "src": 7, "des": 9, "xoff":  0, "yoff":  0, "ls": 0},
   { "src": 7, "des":10, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src": 9, "des":11, "xoff":  3, "yoff":0.3, "ls": 0},
+  { "src": 9, "des":11, "xoff":  5, "yoff":0.3, "ls": 0},
   { "src":10, "des":11, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":12, "des":13, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":12, "des":14, "xoff":0.8, "yoff":0.1, "ls": 0},
@@ -378,9 +427,12 @@ var nodeData = [
   { "src":18, "des":19, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":18, "des":20, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":21, "des":22, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src":21, "des":23, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src":24, "des":25, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src":24, "des":26, "xoff":  0, "yoff":  0, "ls": 0},
-  { "src":27, "des":28, "xoff":2.0, "yoff":  0, "ls": 0},
-  { "src":27, "des":29, "xoff":3.5, "yoff":0.2, "ls": 0},
+  { "src":21, "des":24, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":22, "des":23, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":25, "des":26, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":25, "des":27, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":28, "des":29, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":28, "des":30, "xoff":  0, "yoff":  0, "ls": 0},
+  { "src":31, "des":32, "xoff":2.0, "yoff":  0, "ls": 0},
+  { "src":31, "des":33, "xoff":3.5, "yoff":0.2, "ls": 0},
 ];

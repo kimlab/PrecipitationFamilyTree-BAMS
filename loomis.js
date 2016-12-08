@@ -2,7 +2,7 @@
 
 var margin = {top: 20, right: 120, bottom: 20, left:100},
     width = 1400 - margin.right - margin.left,
-    height = 900- margin.top - margin.bottom;
+    height = 1000- margin.top - margin.bottom;
  
 var i = 0,
     duration = 750,
