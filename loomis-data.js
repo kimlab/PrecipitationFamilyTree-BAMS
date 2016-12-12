@@ -15,7 +15,7 @@ var treeData = [
   {
     "idx" : 2,
     "name": "Johnston",
-    "year": "1854",
+    "year": "1848",
     "prcp": "0",
     "clr" : "goldenrod",
     "map" : true,
@@ -418,7 +418,6 @@ var nodeData = [
   { "src": 7, "des": 9, "xoff":  0, "yoff":  0, "ls": 0},
   { "src": 7, "des":10, "xoff":  0, "yoff":  0, "ls": 0},
   { "src": 9, "des":11, "xoff":  5, "yoff":0.3, "ls": 0},
-  { "src":10, "des":11, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":12, "des":13, "xoff":  0, "yoff":  0, "ls": 0},
   { "src":12, "des":14, "xoff":0.8, "yoff":0.1, "ls": 0},
   { "src":13, "des":14, "xoff":  0, "yoff":  0, "ls": 0},
