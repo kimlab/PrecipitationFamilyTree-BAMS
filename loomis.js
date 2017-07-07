@@ -2,7 +2,7 @@
 
 var margin = {top: 20, right: 120, bottom: 20, left:100},
     width = 1400 - margin.right - margin.left,
-    height = 1000- margin.top - margin.bottom;
+    height = 1030- margin.top - margin.bottom;
  
 var i = 0,
     duration = 750,
@@ -151,7 +151,7 @@ svg.selectAll(".prcp")
 svg.append("text", "g")
     .attr("class", "title")
     .attr("transform", "translate(0, " + height*0.95 + ")")
-    .text("Family Tree of Global Precipitation Estimation");
+    .text("Family Tree of Terrestrial Precipitation Estimation");
 
 svg.append("g")
     .attr('class', 'x axis')
